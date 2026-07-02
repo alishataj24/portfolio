@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shaik Roshan Jameer — Resume</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: "Arial", sans-serif;
+    font-size: 9.5pt;
+    color: #111;
+    background: #fff;
+    line-height: 1.4;
+  }
+
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 13mm 14mm 12mm 14mm;
+  }
+
+  /* ── Header ── */
+  .header { text-align: center; margin-bottom: 8px; }
+
+  .name {
+    font-size: 17pt;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+
+  .contact {
+    font-size: 8.5pt;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+  }
+
+  .contact a { color: #111; text-decoration: none; }
+
+  /* ── Sections ── */
+  .section { margin-top: 9px; }
+
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 1px solid #111;
+    padding-bottom: 1.5px;
+    margin-bottom: 5px;
+  }
+
+  /* ── Summary ── */
+  .summary p { font-size: 9pt; color: #222; }
+
+  /* ── Skills ── */
+  .skills-row { margin-bottom: 2.5px; font-size: 9pt; }
+  .skills-row strong { font-weight: 700; }
+
+  /* ── Experience / Projects ── */
+  .entry { margin-bottom: 7px; }
+  .entry:last-child { margin-bottom: 0; }
+
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+  }
+
+  .entry-title { font-weight: 700; font-size: 9.5pt; }
+  .entry-date  { font-size: 8.5pt; color: #333; white-space: nowrap; flex-shrink: 0; }
+
+  .entry-sub {
+    font-style: italic;
+    font-size: 8.5pt;
+    color: #444;
+    margin-bottom: 3px;
+  }
+
+  .entry ul {
+    padding-left: 14px;
+    margin-top: 2px;
+  }
+
+  .entry ul li {
+    font-size: 9pt;
+    margin-bottom: 1.5px;
+    color: #222;
+  }
+
+  /* ── Education ── */
+  .edu-entry { margin-bottom: 5px; }
+  .edu-entry:last-child { margin-bottom: 0; }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .edu-title { font-weight: 700; font-size: 9.5pt; }
+  .edu-date  { font-size: 8.5pt; color: #333; }
+  .edu-sub   { font-size: 9pt; color: #444; }
+
+  /* ── Certifications ── */
+  .cert-entry { margin-bottom: 3.5px; font-size: 9pt; }
+  .cert-entry:last-child { margin-bottom: 0; }
+  .cert-name { font-weight: 600; }
+  .cert-provider { color: #444; }
+
+  @media print {
+    body { margin: 0; }
+    .page { margin: 0; padding: 13mm 14mm 12mm 14mm; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="name">Shaik Roshan Jameer</div>
+    <div class="contact">
+      <span>📞 +91 7013093226</span>
+      <a href="mailto:shaikroshan150@gmail.com">✉ shaikroshan150@gmail.com</a>
+      <span>📍 Hyderabad, India</span>
+      <a href="https://www.linkedin.com/in/shaik-roshan-jameer-971557322/" target="_blank">🔗 linkedin.com/in/shaik-roshan-jameer</a>
+    </div>
+  </div>
+
+  <!-- Summary -->
+  <div class="section summary">
+    <div class="section-title">Summary</div>
+    <p>
+      AI & Digital Marketing professional with 4+ years of experience in US healthcare revenue cycle operations. Currently transitioning into AI-powered marketing — building practical tools (ContentPilot AI, SEOInsight AI) and earning certifications from Google and AI Business School (Coursera). Skilled in prompt engineering, AI content creation, SEO strategy, and marketing automation. Strong foundation in analytical thinking, communication, and process optimisation built through professional operations experience.
+    </p>
+  </div>
+
+  <!-- Skills -->
+  <div class="section">
+    <div class="section-title">Skills</div>
+    <div class="skills-row"><strong>AI Tools:</strong> ChatGPT, Claude, Gemini, Perplexity AI, Higgsfield AI, Runway ML, Canva AI</div>
+    <div class="skills-row"><strong>Digital Marketing:</strong> SEO, Keyword Research, Content Marketing, Content Strategy, Social Media Content, Marketing Automation, Google Analytics</div>
+    <div class="skills-row"><strong>Technical:</strong> Python, JavaScript, HTML, CSS, React, Node.js, MongoDB</div>
+    <div class="skills-row"><strong>Specialisations:</strong> Prompt Engineering, AI Content Workflows, AI Video Generation, AI Research</div>
+    <div class="skills-row"><strong>Soft Skills:</strong> Analytical Thinking, Communication, Process Optimisation, Problem Solving, Team Collaboration</div>
+  </div>
+
+  <!-- Experience -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Senior AR Specialist — AGS Health Care</span>
+        <span class="entry-date">Aug 2023 – Present</span>
+      </div>
+      <div class="entry-sub">Bengaluru, India (Hybrid)</div>
+      <ul>
+        <li>Managed end-to-end Accounts Receivable processes for US healthcare providers, ensuring timely claims resolution and payment recovery.</li>
+        <li>Investigated denied and underpaid insurance claims — identifying root causes, coordinating with insurance representatives, and maximising reimbursements.</li>
+        <li>Worked with PHI Phygen and multiple payer portals to resolve complex claim issues while maintaining full compliance with healthcare regulations.</li>
+        <li>Mentored junior team members on denial management, claims follow-up, and revenue cycle best practices.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">AR Specialist — Elico LTD</span>
+        <span class="entry-date">Dec 2020 – Mar 2022</span>
+      </div>
+      <div class="entry-sub">Hyderabad, India</div>
+      <ul>
+        <li>Managed insurance claim follow-ups and payment collections for Medicare and Medicaid accounts.</li>
+        <li>Resolved denied and pending claims through detailed account analysis and effective communication with insurance providers.</li>
+        <li>Contributed to improving collection performance through proactive follow-ups and timely issue resolution.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">ContentPilot AI — AI Marketing Content Studio</span>
+        <span class="entry-date">2025 – Present</span>
+      </div>
+      <div class="entry-sub">React, Node.js, OpenAI API, Tailwind CSS</div>
+      <ul>
+        <li>Building an AI-powered web application that generates marketing content (Instagram captions, LinkedIn posts, blog ideas, email copy) in seconds using Generative AI.</li>
+        <li>Implemented content type selection, tone controls, and one-click copy — reducing content creation time from hours to seconds.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">SEOInsight AI — AI SEO Assistant</span>
+        <span class="entry-date">2025 – Present</span>
+      </div>
+      <div class="entry-sub">React, Node.js, Gemini API, Tailwind CSS</div>
+      <ul>
+        <li>Building an AI-powered tool that analyses blog articles and generates SEO recommendations — including title tags, meta descriptions, keyword suggestions, readability scores, and FAQ schema.</li>
+        <li>Features audit history, content templates, and structured SEO reports for content marketers.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="edu-entry">
+      <div class="edu-header">
+        <span class="edu-title">SV University</span>
+        <span class="edu-date">2021 – 2023</span>
+      </div>
+      <div class="edu-sub">Master of Computer Applications (CGPA: 8.0)</div>
+    </div>
+
+    <div class="edu-entry">
+      <div class="edu-header">
+        <span class="edu-title">Sri Venkateshwara University</span>
+        <span class="edu-date">2018 – 2020</span>
+      </div>
+      <div class="edu-sub">Bachelor of Science in Computer Science (CGPA: 7.5)</div>
+    </div>
+  </div>
+
+  <!-- Certifications -->
+  <div class="section">
+    <div class="section-title">Certifications</div>
+
+    <div class="cert-entry">
+      <span class="cert-name">AI for Marketing Specialization</span>
+      <span class="cert-provider"> — AI Business School × Coursera · Jun 2026 · 3 Courses ✓</span>
+    </div>
+    <div class="cert-entry">
+      <span class="cert-name">Google Digital Marketing &amp; E-commerce Professional Certificate</span>
+      <span class="cert-provider"> — Google · 2026 ✓</span>
+    </div>
+    <div class="cert-entry">
+      <span class="cert-name">Google AI Essentials</span>
+      <span class="cert-provider"> — Google · 2026 ✓</span>
+    </div>
+    <div class="cert-entry">
+      <span class="cert-name">Google Prompting Essentials</span>
+      <span class="cert-provider"> — Google · 2026 ✓</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
